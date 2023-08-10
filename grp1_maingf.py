@@ -43,7 +43,7 @@ session = Session.builder.configs(connection_parameters).create()
 st.set_page_config(page_title='ICP ASG 3', page_icon="favicon.ico")
 
 # Tabs set-up
-tab1,tab2 = st.tabs(['Uplift Analysis [Guo Fung]',"Test"])
+tab1,tab2 = st.tabs(['Uplift Analysis [Guo Fung]'," "])
     
 with tab1:
    
